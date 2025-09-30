@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ethan Sutton</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Profile picture styling */
+        .profile-img {
+            display: block;             
+            margin: 0 auto 15px;        
+            border-radius: 50%;         
+            width: 150px;               
+            height: 150px;              
+            object-fit: cover;          
+            border: 4px solid white;    
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+            transition: transform 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/profilepic.png" alt="Profile Picture" class="profile-img">
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Email: ethansutton23113@gmail.com</p>
+            <p>Phone: (989)293-4556</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ethansutton" target="_blank">linkedin.com/in/ethansutton</a></p>
+        </section>
+
+        <section>
+            <h2>Contact Form (Optional)</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ethan Sutton</p>
+    </footer>
+</body>
+</html>

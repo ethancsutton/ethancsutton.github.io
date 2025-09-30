@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Ethan Sutton</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Profile picture styling */
+        .profile-img {
+            display: block;             
+            margin: 0 auto 15px;        
+            border-radius: 50%;         
+            width: 150px;               
+            height: 150px;              
+            object-fit: cover;          
+            border: 4px solid white;    
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+            transition: transform 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main content styling */
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px; /* <-- semicolon fixed */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/profilepic.png" alt="Profile Picture" class="profile-img">
+        <h1>My Skills</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Java Programming</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Networking & Cybersecurity</li>
+                <li>Data Analysis & SQL</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Other Skills</h2>
+            <ul>
+                <li>Problem Solving & Critical Thinking</li>
+                <li>Version Control with Git</li>
+                <li>Team Collaboration & Communication</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ethan Sutton</p>
+    </footer>
+</body>
+</html>
